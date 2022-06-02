@@ -1,4 +1,7 @@
-![Image](resources/fig1.png)
+<p align="center">
+  <img width="70%" height="auto" src="resources/fig1.png">
+</p>
+<p align="center">
 
 
 # Abstract
