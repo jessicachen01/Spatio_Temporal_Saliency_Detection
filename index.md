@@ -1,4 +1,4 @@
-![Image](resources/overall_V4.pdf)
+![Image](resources/fig1.pdf)
 
 
 # Abstract
