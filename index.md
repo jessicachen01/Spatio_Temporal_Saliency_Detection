@@ -1,4 +1,4 @@
-![Image](resources/fig1.png)
+![Image](resources/overall_V4.png)
 
 
 # Abstract
