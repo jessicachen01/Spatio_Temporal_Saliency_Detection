@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
 
-title: COVID-19 CT Image Synthesis with a Conditional Generative Adversarial Network
-description: A novel COVID-19 CT image synthesis method can generate high-quality synthetic data for downstream diagnostic tasks. <br /> (IEEE JBHI featured article.)
+title: Unsupervised domain adaptation based COVID-19 CT infection segmentation network
+description: A novel domain adaptation based method proposed for the high-performance segmentation of COVID-19 infection in CT scans even without access to the label.
