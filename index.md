@@ -16,13 +16,15 @@ In this paper, we propose a novel unsupervised domain adaptation based segmentat
 
 # COVID-19 CT Infection Segmentation Results
 <p align="center">
-<img width="70%" height="auto" src="resources/fig2.png">
+<img width="80%" height="auto" src="resources/fig2.png">
+</p>
 <p align="center">
 Qualitative results for two-class segmentation task. Columns 1 and 2 present the input real COVID-19 CT images and corresponding ground truth, while Column 6 is the segmentation result of our proposed method. The first to last rows are the results when taking ground-glass opacity (a), consolidation (b), infection (c) and the lung (d) as the segmentation object, respectively.
 </p>
 
 <p align="center">
-<img width="70%" height="auto" src="resources/fig3.png">
+<img width="80%" height="auto" src="resources/fig3.png">
+</p>
 <p align="center">
 Qualitative results for multi-class segmentation task. Columns 1 and 2 show the input real COVID-19 CT images and corresponding ground truth, in which the ground-glass opacity is marked in blue, consolidation is marked in green, and the lung is marked in red. Columns 7 is the segmentation result for our proposed method.
 </p>
