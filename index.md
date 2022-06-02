@@ -1,4 +1,4 @@
-![Image](resources/fig1.png=100x100)
+![Image](resources/fig1.png =100x100)
 
 
 # Abstract
