@@ -1,4 +1,4 @@
-![Image width=60%](resources/fig1.png)
+![Image width=6%](resources/fig1.png)
 
 
 # Abstract
