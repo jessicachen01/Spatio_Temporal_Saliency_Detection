@@ -2,13 +2,13 @@
   <img width="70%" height="auto" src="resources/fig1.png">
 </p>
 <p align="center">
-Our unsupervised segmentation network consists of two parts: the segmentation network including a feature extractor, a pixel-wise classifier, as well as the domain adaptation module (DA) including a generator and a discriminator. The black solid lines with one-way arrow indicate the data flow and the dashed lines denote reconstruction and adversarial loss. The feature extractor and pixel-wise classifier together perform the segmentation task. The DA module is introduced to overcome the domain shift through adversarial training in image space.
+In this work, we designed a saliency detection model suitable for the target tracking task. Our proposed model takes a video as input and outputs the location of the most salient objects in the video, which benefits for improving the performance of downstream tracking network.  
 </p>
 
 
 # Abstract
 
-Automatic segmentation of infection areas in computed tomography (CT) images has proven to be an effective diagnostic approach for COVID-19. However, due to the limited number of pixel-level annotated medical images, accurate segmentation remains a major challenge. In this paper, we propose an unsupervised domain adaptation based segmentation network to improve the segmentation performance of the infection areas in COVID-19 CT images. In particular, we propose to utilize the synthetic data and limited unlabeled real COVID-19 CT images to jointly train the segmentation network. Furthermore, we develop a novel domain adaptation module, which is used to align the two domains and effectively improve the segmentation network’s generalization capability to the real domain. Besides, we propose an unsupervised adversarial training scheme, which encourages the segmentation network to learn the domain-invariant feature, so that the robust feature can be used for segmentation. Experimental results demonstrate that our method can achieve state-of-the-art segmentation performance on COVID-19 CT images.
+Aiming at the problem that the current saliency detection models are not pertinent when dealing with tracking tasks and ignore the contribution of motion information to saliency, a Spatio-temporal saliency detection model suitable for target tracking tasks is proposed. In the spatial domain, the spatial saliency detection model based on histogram contrast is improved by introducing SLIC superpixel segmentation and prior information of the target position, and the complete and saliency target of each frame is obtained. In the time domain, the motion feature channel is added as the guidance method of the visual attention, and the motion vector is detected by the frame difference method and the optical flow method. The motion vector's saliency is analysed using the features of motion entropy and direction consistency, and then the time-domain salient model is constructed. Finally, saliency maps of the time-domain and spatial domain are merged using an adaptive weighting approach to obtain the Spatio-temporal saliency detection model that adapts to different tracking task situations.
 
 # Overview
 
