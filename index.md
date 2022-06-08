@@ -22,19 +22,18 @@ Aiming at the problem that the current saliency detection models are not pertine
 # Spaio-temporal saliency detection results
 
 <p align="center">
-  <img width="70%" height="auto" src="resources/fig3.png">
+  <img width="60%" height="auto" src="resources/fig3.png">
 </p>
 
 # Citation
 ```
-@article{chen2022unsupervised,
-  title={Unsupervised domain adaptation based COVID-19 CT infection segmentation network},
-  author={Chen, Han and Jiang, Yifan and Loew, Murray and Ko, Hanseok},
-  journal={Applied Intelligence},
-  volume={52},
-  number={6},
-  pages={6340--6353},
-  year={2022},
-  publisher={Springer}
+@article{xiaojunvideo,
+  title={Video saliency detection algorithm based on spatial-temporal information},
+  author={Xiaojun, BI and Han, CHEN},
+  journal={Journal of Harbin Engineering University},
+  volume={39},
+  number={11},
+  pages={1786-1792},
+  year={2018},
 }
 ```
