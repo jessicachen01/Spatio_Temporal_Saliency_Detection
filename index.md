@@ -21,6 +21,10 @@ Aiming at the problem that the current saliency detection models are not pertine
 
 # Spaio-temporal saliency detection results
 
+<p align="center">
+  <img width="70%" height="auto" src="resources/fig3.png">
+</p>
+
 # Citation
 ```
 @article{chen2022unsupervised,
