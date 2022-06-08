@@ -15,10 +15,9 @@ Aiming at the problem that the current saliency detection models are not pertine
 <p align="center">
   <img width="50%" height="auto" src="resources/fig2.png">
 </p>
-<p align="center">
+
   The above flow chart shows that our saliency detection model takes a video clip as input. Two branches are designed for low-level image-level features and dynamic semantic features, respectively. The branch for low-level features takes into a single frame and firstly calculates a colour histogram. Then the image will be classified into different regions through the SLIC super-pixel segmentation methods. Next, the colour contrast will be calculated at the super-pixel level. Finally, we will get the spatial domain saliency map, where the colour contrast defines the saliency. The branch for dynamic semantic features takes the adjacent video frames as input, and the optical flow methods will detect the motion in videos. Then the motion entropy will be calculated by the optical flow vector, which will be then used to define the temporal domain saliency map. The spatial saliency map and temporal saliency maps will be adaptively fused to get the final saliency map.
-  
-</p>
+
 
 # Spaio-temporal saliency detection results
 
